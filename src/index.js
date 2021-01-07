@@ -2,11 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+
+import LeaderBoard from './LeaderBoard';
+
+
+import { BrowserRouter as Router, Route, Link , Switch } from "react-router-dom";
+
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+ 
   </React.StrictMode>,
   document.getElementById('root')
 );
