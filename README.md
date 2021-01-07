@@ -6,7 +6,7 @@
 ** The frontend will now run on [localhost:3000] and dev can view it from there
 * Now, move to leaderboard/djangoapi and hit ```python manage.py migrate``` afterwards, ```python manage.py api makemigrations```
 * To make a superuser as for viewing the admin panel of the backend, ```python manage.py creatersuperuser``` and make the following
-* As for running the backend on live, ```python manage.py runserver``` and view it on [localhost:8000/admin]
+* As for running the backend on live, ```python manage.py runserver``` and view it on [localhost:8000/admin](#)
 * Simultaneously Run both the React and Django code in the dev system
 
 ## Usage
